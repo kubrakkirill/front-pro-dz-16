@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Alert</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app">
+        <form id="alertForm">
+          <label for="titleInput">Title:</label>
+          <input type="text" id="titleInput" name="title" required>
+    
+          <label for="textInput">Text:</label>
+          <textarea id="textInput" name="text" required></textarea>
+    
+          <button type="submit">Show Alert</button>
+        </form>
+    
+        <p id="errorMessage" class="error-message"></p>
+      </div>
+    
+
+  <script src="index.js"></script>
+</body>
+</html>
